@@ -1,4 +1,4 @@
-@extends('layout/main')
+@extends('layout.main')
 @section('tittle', 'web programing Unpas')
 @section('container')
     <div class="container">
