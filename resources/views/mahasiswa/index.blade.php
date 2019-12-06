@@ -18,13 +18,13 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach( $mahasiswa as $mhs)
+                       @foreach( $mahasiswa as $mhs)
                         <tr>
                             <th scope="row">{{ $loop->iteration }}</th>
                             <td>{{ $mhs->nrp }}</td>
                             <td>{{ $mhs->nama }}</td>
                             <td>{{ $mhs->email }}</td>
-                            <td>{{ $mhs->Jurusan }}</td>
+                            <td>{{ $mhs->jurusan }}</td>
                             <td>
                                 <a href="" class="badge badge-success">edit</a>
                                 <a href="" class="badge badge-danger">delete</a>
